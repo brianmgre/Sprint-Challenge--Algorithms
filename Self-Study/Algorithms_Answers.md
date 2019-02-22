@@ -1,1 +1,3 @@
-Add your answers to the Algorithms exercises here.
+a) a = 0
+while (a < n _ n _ n):
+a = a + n \* n
