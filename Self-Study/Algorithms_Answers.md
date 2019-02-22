@@ -17,3 +17,11 @@ b) b) sum = 0
             sum += 1
 
 O(n^2) loops j and k run less than the i loop. However, as n gets larger K running more than N. the graph grows similar to O(n^2). As the larger the number the more K runs exponentially.
+
+c) def bunnieEars(bunnies):
+if bunnies == 0:
+return 0
+
+      return 2 + bunnyEars(bunnies-1)
+
+the program would not run, because bunnyEars is not recursive call of the bunnieEars function. If this is a type-o than it would be O(n) as the number of operations increase by n.
